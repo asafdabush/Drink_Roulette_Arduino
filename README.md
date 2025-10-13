@@ -37,20 +37,17 @@ The Arduino sketch controls LED timing, random selection, and debounce logic for
 ---
 
 ## 🎥 Demo Video
-<video width="500" controls>
-  <source src="media/VID-20251013-WA0006.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+🎬 [Click to watch demo video](media/VID-20251013-WA0006.mp4)
 
 ---
 
 ## 📸 Photos
 | Breadboard Setup | Final Look |
 |------------------|-------------|
-| ![Setup](media/IMG-20251013-WA0052.jpg) | ![Final](docs/IMG-20251013-WA0062.jpg) |
+| <img src="media/IMG-20251013-WA0052.jpg" width="350"/> | <img src="docs/IMG-20251013-WA0062.jpg" width="350"/> |
 
-Additional view:  
-![Close-up](docs/IMG-20251013-WA0061.jpg)
+Additional close-up:  
+<img src="docs/IMG-20251013-WA0061.jpg" width="350"/>
 
 ---
 
