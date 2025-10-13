@@ -1,57 +1,73 @@
 # 🎰 Drink Roulette – Arduino LED Game
 
-A simple and fun **Arduino-based roulette** that randomly selects a drink by lighting one of three lamps — Arak, Tequila, or Van Gogh.
+A fun and interactive **Arduino-based roulette** that randomly selects a drink by lighting one of three lamps — Arak, Tequila, or Van Gogh.
 
 ---
 
 ## 🧠 Overview
 When idle, all LEDs are ON.  
-Pressing the button starts a fast “roulette” sequence that stops randomly on one lamp for 10 seconds.  
+Pressing the button starts a fast “roulette” sequence that stops randomly on one lamp for about 10 seconds.  
 Pressing again restarts the spin.  
 
-Demonstrates:
+This project demonstrates:
 - Digital output control  
 - Random number generation (`random()`)  
 - Timing (`delay()`)  
-- State switching via button input  
+- State management via button input  
 
 ---
 
-## ⚡ Hardware
-| Component | Quantity | Note |
-|------------|-----------|------|
+## ⚙️ Hardware Setup
+| Component | Quantity | Description |
+|------------|-----------|-------------|
 | Arduino Nano | 1 | Main controller |
-| LEDs | 3 | Represent the drinks |
-| N-MOSFETs (e.g. BS170) | 3 | Drive LEDs |
-| Push Button | 1 | Input control |
-| Resistors | As needed | 220 Ω for LEDs, 10 kΩ for pull-downs |
-| 5 V Power Supply | 1 | Common rail |
+| LEDs | 3 | Represent the drinks (Arak, Tequila, Van Gogh) |
+| N-MOSFETs (BS170) | 3 | Drive LEDs |
+| Push Button | 1 | Input trigger |
+| Resistors | As needed | 220 Ω for LEDs, 10 kΩ for pull-down |
+| 5 V Power Supply | 1 | Shared ground |
 
 ---
 
-## 🎥 Demo
+## 💻 Code
+📂 [`roulette_lights.ino`](code/roulette_lights.ino)
+
+The Arduino sketch controls LED timing, random selection, and debounce logic for the push button.
+
+---
+
+## 🎥 Demo Video
 <video width="500" controls>
-  <source src="media/demo_video.mp4" type="video/mp4">
+  <source src="media/VID-20251013-WA0006.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ---
 
 ## 📸 Photos
-| Setup | Final Version |
-|--------|----------------|
-| ![Setup](media/setup_photo.jpg) | ![Final](media/final_photo.jpg) |
+| Breadboard Setup | Final Look |
+|------------------|-------------|
+| ![Setup](media/IMG-20251013-WA0052.jpg) | ![Final](docs/IMG-20251013-WA0062.jpg) |
+
+Additional view:  
+![Close-up](docs/IMG-20251013-WA0061.jpg)
 
 ---
 
 ## 🧰 Tools Used
 - Arduino IDE  
-- Basic breadboard prototyping  
-- Random number and delay control  
-- MOSFET switching logic  
+- Breadboard + jumper wires  
+- Random and delay control logic  
+- MOSFET switching for power stage  
 
 ---
 
 ## 👤 Author
 **Asaf Refael Dabush**  
+Electrical & Electronics Engineering  
 Ariel University, 2026  
+
+---
+
+## 🪪 License
+Released under the [MIT License](https://opensource.org/licenses/MIT)
