@@ -36,8 +36,10 @@ The Arduino sketch controls LED timing, random selection, and debounce logic for
 
 ---
 
-## 🎥 Demo Video
-🎬 [Click to watch demo video](media/VID-20251013-WA0006.mp4)
+## 🎥 Demo
+<img src="media/demo.gif" width="240" alt="Roulette demo">
+
+Full video: [`media/VID-20251013-WA0006.mp4`](media/VID-20251013-WA0006.mp4)
 
 ---
 
@@ -62,7 +64,7 @@ Additional close-up:
 ## 👤 Author
 **Asaf Refael Dabush**  
 Electrical & Electronics Engineering  
-Ariel University, 2026  
+B.Sc. Electrical & Electronics Engineering, Ariel University  
 
 ---
 
